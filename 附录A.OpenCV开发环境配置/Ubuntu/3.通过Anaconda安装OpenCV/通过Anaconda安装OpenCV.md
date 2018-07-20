@@ -1,4 +1,12 @@
-# 在Ubuntu下利用Anaconda安装python-opencv的过程
+# 通过Anaconda安装OpenCV-1Z实验室出品
+
+-------
+
+加阿凯QQ （**244561792**） 
+
+**免费OpenCV入门教程，涨知识。**
+
+----
 
 
 
@@ -12,7 +20,7 @@
 
 
 
-## 为什么为什么凡哥用conda不用pip?
+## 为什么为什么阿凯用conda不用pip?
 
 `pip`是另外一款python的包管理工具, 有的同学问我, 为什么用conda而不用pip呢?
 

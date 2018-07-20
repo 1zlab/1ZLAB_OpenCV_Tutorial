@@ -62,14 +62,14 @@ cv2.namedWindow('image_win'， flags=cv2.WINDOW_AUTOSIZE | cv2.WINDOW_KEEPRATIO 
 
 ```python
 # 创建一个名字叫做 image_win的窗口
-cv2.namedWindow('image_win'， flags=cv2.WINDOW_NORMAL | cv2.WINDOW_KEEPRATIO | cv2.WINDOW_GUI_EXPANDED)
+cv2.namedWindow('image_win',  flags=cv2.WINDOW_NORMAL | cv2.WINDOW_KEEPRATIO | cv2.WINDOW_GUI_EXPANDED)
 ```
 
 又因为另外两个选项均为默认选项， 值为0, 所以写法等同于
 
 ```python
 # 创建一个名字叫做 image_win的窗口
-cv2.namedWindow('image_win'， flags=cv2.WINDOW_NORMA)
+cv2.namedWindow('image_win',  flags=cv2.WINDOW_NORMAL)
 ```
 
 
@@ -78,7 +78,8 @@ cv2.namedWindow('image_win'， flags=cv2.WINDOW_NORMA)
 
 ```python
 # 创建一个名字叫做 image_win的窗口
-cv2.namedWindow('image_win'， flags=cv2.WINDOW_NORMA | cv2.WINDOW_FREERATIO)
+cv2.namedWindow('image_win', flags=cv2.WINDOW_NORMAL | cv2.WINDOW_FREERATIO)
+
 ```
 
 
@@ -112,4 +113,4 @@ cv2.destroyWindow('image_win')
 
 
 
-![0120_blank_windows.png](http://image.myfange.com/0120_blank_windows.png-fg)
+![0120_blank_windows.png](./image/0120_blank_windows.png)

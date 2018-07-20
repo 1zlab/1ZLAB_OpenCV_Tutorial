@@ -1,14 +1,24 @@
-# 在Ubuntu下安装Anaconda科学计算包并运行python程序
+# 在Ubuntu下安装Anaconda科学计算包-1Z实验室出品
+
+
+
+------
+
+加阿凯QQ （**244561792**） 
+
+**免费OpenCV入门教程，涨知识。**
+
+------
 
 
 
 ## 概要
 
-在这节课, 凡哥带大家从Anaconda的官网下载sh安装文件, 并在本地运行它.
+在这节课, 阿凯带大家从Anaconda的官网下载sh安装文件, 并在本地运行它.
 
 安装完成之后, 需要添加环境变量PATH到.bashrc下, 接下来我们测试一下anaconda是否安装成功.
 
-最后, 凡哥给大家演示了, 安装Anaconda之后运行IPython与Jupyter Notebook 交互式编程环境.
+最后, 阿凯给大家演示了, 安装Anaconda之后运行IPython与Jupyter Notebook 交互式编程环境.
 
 
 
@@ -24,7 +34,7 @@
 
 
 
-在演示视频里， 凡哥是从清华的anaconda镜像里下载的。
+在演示视频里， 阿凯是从清华的anaconda镜像里下载的。
 
 
 
@@ -167,5 +177,5 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 
 
-视频最后，凡哥还给大家演示jupyter notebook 这个Web IDE的使用。
+视频最后，阿凯还给大家演示jupyter notebook 这个Web IDE的使用。
 

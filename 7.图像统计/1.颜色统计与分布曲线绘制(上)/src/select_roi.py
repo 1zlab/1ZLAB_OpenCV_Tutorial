@@ -1,13 +1,18 @@
 # -*- coding: utf-8 -*- 
 '''
+选取ROI区域
 回车或者空格确认选择
 c键 撤销选择
 '''
 import numpy as np
 import cv2
+import sys
+
 
 # 文件路径
-img_path = 'blue-color-block.png'
+# img_path = 'blue-color-block.png'
+img_path = sys.argv[1]
+
 # 读入图片
 img = cv2.imread(img_path)
 # 创建一个窗口

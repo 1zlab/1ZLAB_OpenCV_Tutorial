@@ -1,10 +1,12 @@
-# 在VirtualBox上安装Ubuntu16.04的虚拟机
+# Ubuntu虚拟机安装(VirtualBox)
+
+
 
 ## 概要
 
-在本次教程里, 凡哥带大家安装VirtualBox, 介绍了一下VirtualBox与VMWare的不同之处. 
+在本次教程里, 阿凯带大家安装VirtualBox, 介绍了一下VirtualBox与VMWare的不同之处. 
 
-接下来教大家如何创建一个虚拟机, 如何分配物理资源等.  然后我们挂载Ubuntu16.04的镜像, 凡哥逐步教大家安装Ubuntu.课程最后, 你可以进入到你自己安装的Ubuntu桌面, 是不是很有成就感.
+接下来教大家如何创建一个虚拟机, 如何分配物理资源等.  然后我们挂载Ubuntu16.04的镜像, 阿凯逐步教大家安装Ubuntu.课程最后, 你可以进入到你自己安装的Ubuntu桌面, 是不是很有成就感.
 
 
 
@@ -68,7 +70,7 @@ https://mirrors.tuna.tsinghua.edu.cn/#
 
 
 
-`Virtualbox` 的安装方法， 凡哥这里就不给大家讲解了， 傻瓜式安装。
+`Virtualbox` 的安装方法， 阿凯这里就不给大家讲解了， 傻瓜式安装。
 
 
 
@@ -94,13 +96,13 @@ https://www.bilibili.com/video/av18569702/?p=7
 
 
 
-更多细节见 [在VirtualBox虚拟机里使用Opencv获取USB摄像头的图像-凡哥带你配置OpenCV开发环境](http://www.myfange.com/p/virtualbox-opencv-usb-camera-video-capture)
+更多细节见 [在VirtualBox虚拟机里使用Opencv获取USB摄像头的图像-阿凯带你配置OpenCV开发环境](http://www.myfange.com/p/virtualbox-opencv-usb-camera-video-capture)
 
 
 
-## 直接导入凡哥配好CvPlat
+## 直接导入阿凯配好CvPlat
 
-你可以选择自己配环境, 或者直接导入凡哥配置好的Ubuntu虚拟机`CvPlat`
+你可以选择自己配环境, 或者直接导入阿凯配置好的Ubuntu虚拟机`CvPlat`
 
 
 
@@ -136,7 +138,7 @@ ps: 安装完成之后, 你可能还得修改一下共享文件夹的路径等�
 
 ## 虚拟机创建过程
 
-虚拟机的安装过程, 你可以看凡哥录制的视频. 视频放置再B站上.
+虚拟机的安装过程, 你可以看阿凯录制的视频. 视频放置再B站上.
 
 视频内容包括虚拟机的创建与Ubuntu的安装过程.
 
@@ -302,7 +304,7 @@ https://www.bilibili.com/video/av18569702/?p=1
 
 ### 填入用户名与主机名
 
-这里主机名称，凡哥用的是`CvPlat` , Computer Vision Platform的意思。
+这里主机名称，阿凯用的是`CvPlat` , Computer Vision Platform的意思。
 
 用户名 `fange`
 

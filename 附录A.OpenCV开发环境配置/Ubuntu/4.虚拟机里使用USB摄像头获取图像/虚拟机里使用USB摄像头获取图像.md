@@ -2,15 +2,15 @@
 
 # 第4课-在VirtualBox虚拟机里使用Opencv获取USB摄像头的图像
 
-在这一讲里， 凡哥将会带大家在virtualbox中运行opencv的程序， 并且读取usb摄像头的图像。
-在运行程序之前, 你需要在VirtualBox上安装对应的拓展包. 然后, 凡哥还详细讲解了opencv中调用VideoCapture获取图像并展示在窗口的程序. 通过这篇文章的操作, 你可以检测你的USB设备是否可以在虚拟机里正常读取, 另外, 测试你配置的opencv开发环境是否正常.
+在这一讲里， 阿凯将会带大家在virtualbox中运行opencv的程序， 并且读取usb摄像头的图像。
+在运行程序之前, 你需要在VirtualBox上安装对应的拓展包. 然后, 阿凯还详细讲解了opencv中调用VideoCapture获取图像并展示在窗口的程序. 通过这篇文章的操作, 你可以检测你的USB设备是否可以在虚拟机里正常读取, 另外, 测试你配置的opencv开发环境是否正常.
 
 
 ## 不能读取USB设备的尴尬境地
 
 
 
-首先你得有一个USB摄像头， 请不要问凡哥USB摄像头的选型。 能用就好， 最好免驱动。
+首先你得有一个USB摄像头， 请不要问阿凯USB摄像头的选型。 能用就好， 最好免驱动。
 
 我们点开VirtualBox的该虚拟机的管理页中的usb设备一栏中， 可以看到从usb1.0 到usb3.0我们统统不能选择。 
 
@@ -110,7 +110,7 @@ https://www.virtualbox.org/wiki/Download_Old_Builds_5_1
 
 
 
-凡哥配好的Ubuntu环境， 工程文件在Desktop上， 可以直接打开。
+阿凯配好的Ubuntu环境， 工程文件在Desktop上， 可以直接打开。
 
 工程文件里面的`SampleCollect.py` 就是采集图像的程序。
 

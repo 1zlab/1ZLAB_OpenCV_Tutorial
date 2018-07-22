@@ -11,7 +11,7 @@ opencv图像读取(`imread`) 读入的数据格式是numpy的ndarray数据格式
 
 ![numpy-logo.jpg-fg](./image/numpy-logo.jpg)
 
-[Numpy快速入门-阿凯带你玩转Python科学计算](http://www.myfange.com/p/numpy-quick-start)
+[Numpy快速入门-阿凯带你玩转Python科学计算](http://www.1zlab.com(网站备案中)/p/numpy-quick-start)
 > TODO 更换URL
 
 

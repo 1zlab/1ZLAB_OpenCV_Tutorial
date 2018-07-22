@@ -6,7 +6,7 @@
 
 ## 概述
 
-在CH5.3 图像2D仿射变换一章里， 我们介绍了resize中有若干个插值算法，本节， 凡哥将讲解各种插值算法的实现过程。
+在CH5.3 图像2D仿射变换一章里， 我们介绍了resize中有若干个插值算法，本节， 阿凯将讲解各种插值算法的实现过程。
 
 
 
@@ -253,9 +253,9 @@ $$f(P) = (y - y1)/(y2 - y1) * f(R_1) + (y2- y)/(y2-y1) *f(R_2)$$
 
 
 
-![15150029-ef41a1ca5a354f2baeb84b75d28d8414.png](http://image.myfange.com/15150029-ef41a1ca5a354f2baeb84b75d28d8414.png-bk)
+![15150029-ef41a1ca5a354f2baeb84b75d28d8414.png](./image/./image/gongshi-02.png)
 
-![15150155-b11a2b3839334f1aa565cdbf9a6b8526.png](http://image.myfange.com/15150155-b11a2b3839334f1aa565cdbf9a6b8526.png-bk)
+![15150155-b11a2b3839334f1aa565cdbf9a6b8526.png](./image/gongshi-01.png)
 
 
 

@@ -8,7 +8,7 @@
 
 你需要花一些时间， 掌握这些操作。
 
-[Numpy快速入门-阿凯带你玩转Python科学计算](http://www.myfange.com/p/numpy-quick-start)
+[Numpy快速入门-阿凯带你玩转Python科学计算](http://www.1zlab.com(网站备案中)/p/numpy-quick-start)
 > TODO 更换URL
 
 > 因为阿凯在给大家教授python-opencv, 而在python-opencv读入一个图片对象就是numpy的ndarray类型, 所以阿凯有必要在这里给大家讲解一下numpy的一些基础操作. 同时还会介绍numpy中两个重要的概念全局函数与广播. 最后阿凯还介绍了numpy下面的两个包, linalg线形代数计算包与random随机生成包.

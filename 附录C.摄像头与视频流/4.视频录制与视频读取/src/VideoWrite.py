@@ -3,9 +3,9 @@
 '''
 功能描述：视频录制演示代码
 
-作者：凡哥@杭州云江科技
-网站：www.myfange.com
-QQ交流群 627671914
+作者：阿凯@1Z实验室
+网站：www.1zlab.com(网站备案中)
+QQ交流群 218214240
 '''
 import numpy as np
 import cv2

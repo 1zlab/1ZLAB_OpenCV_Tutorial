@@ -3,9 +3,9 @@
 
 ## 概要
 
-在之前的HighGUI展示图片的课程中, 凡哥没有讲解图像保存的问题. 图像的保存, 我们需要使用`imwrite` 函数.
+在之前的HighGUI展示图片的课程中, 阿凯没有讲解图像保存的问题. 图像的保存, 我们需要使用`imwrite` 函数.
 
-凡哥给大家讲解了如何保存jpg格式与png格式的图片, 以及他们的压缩质量/压缩等级的设定.
+阿凯给大家讲解了如何保存jpg格式与png格式的图片, 以及他们的压缩质量/压缩等级的设定.
 
 
 
@@ -40,7 +40,7 @@ cv2.imwrite('./cat2.png', img)
 
 具体保存为什么图像格式, 是根据图像路径名字的后缀去判断的, 后缀为`.png` 就保存为`png` 格式的图片. 
 
-哈哈, 凡哥猜到你已经会保存`JPEG` 格式的图片啦.
+哈哈, 阿凯猜到你已经会保存`JPEG` 格式的图片啦.
 
 
 
@@ -91,7 +91,7 @@ cv2.imwrite('./cat3.jpg', img)
 `JPEG` 的第三个参数所代表的意思是图像质量`cv2.IMWRITE_JPEG_QUALITY`, 取值范围在 0-100, 默认是95. 
 
 ```
-cv2.imwrite('http://image.myfange.com/bear_quality_50.jpg', img, [cv2.IMWRITE_JPEG_QUALITY, 50])
+cv2.imwrite('bear_quality_50.jpg', img, [cv2.IMWRITE_JPEG_QUALITY, 50])
 ```
 
 
@@ -105,13 +105,13 @@ import numpy as np
 import cv2
 
 # 导入一张图像 模式为彩色图片
-img = cv2.imread('http://image.myfange.com/bear.jpg', cv2.IMREAD_COLOR)
+img = cv2.imread('bear.jpg', cv2.IMREAD_COLOR)
 
 
 for quality in range(0, 100, 10):
     
     # 保存为PNG图片
-    cv2.imwrite('http://image.myfange.com/bear_quality_{}.jpg'.format(quality), img, [cv2.IMWRITE_JPEG_QUALITY, quality])
+    cv2.imwrite('bear_quality_{}.jpg'.format(quality), img, [cv2.IMWRITE_JPEG_QUALITY, quality])
 ```
 
 
@@ -141,12 +141,12 @@ PNG对应的称之为压缩级别 `cv2.IMWRITE_PNG_COMPRESSION`
 例如我们使用压缩级别4去存储图片, 就可以这么写.
 
 ```python
-cv2.imwrite('http://image.myfange.com/bear_compression_4.png', img, [cv2.IMWRITE_PNG_COMPRESSION, 4])
+cv2.imwrite('bear_compression_4.png', img, [cv2.IMWRITE_PNG_COMPRESSION, 4])
 ```
 
 
 
-凡哥写个程序, 让大家直观的感受到不同压缩级别的效果.
+阿凯写个程序, 让大家直观的感受到不同压缩级别的效果.
 
 
 
@@ -157,12 +157,12 @@ import numpy as np
 import cv2
 
 # 导入一张图像 模式为彩色图片
-img = cv2.imread('http://image.myfange.com/bear.png')
+img = cv2.imread('bear.png')
 
 
 for cmpi in range(0, 10):
     # 保存为PNG图片
-    cv2.imwrite('http://image.myfange.com/bear_compression_{}.png'.format(cmpi), img, [cv2.IMWRITE_PNG_COMPRESSION, cmpi])
+    cv2.imwrite('bear_compression_{}.png'.format(cmpi), img, [cv2.IMWRITE_PNG_COMPRESSION, cmpi])
     print("压缩级别 {}".format(cmpi))
     
 ```

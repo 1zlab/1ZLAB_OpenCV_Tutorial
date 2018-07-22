@@ -3,12 +3,12 @@
 代码功能描述
     从摄像头逐帧(frame-by-frame)读入图片并通过HighGUI展示
 作者
-    凡哥@杭州云江科技
+    阿凯@1Z实验室
 教程网站
-    www.myfange.com
+    www.1zlab.com(网站备案中)
 相关课程
     * 通过HIGH GUI展示图片
-    http://www.myfange.com/p/opencv-highgui-imshow
+    http://www.1zlab.com(网站备案中)/p/opencv-highgui-imshow
     * 图像基础变换(仿射变换)
 '''
 
@@ -45,7 +45,7 @@ img_count = 1
 
 # 帮助信息
 helpInfo = '''
-=======凡哥贴心小助手=======
+=======阿凯贴心小助手=======
 提示-按键前需要选中当前画面显示的窗口
 
 按键Q： 退出程序

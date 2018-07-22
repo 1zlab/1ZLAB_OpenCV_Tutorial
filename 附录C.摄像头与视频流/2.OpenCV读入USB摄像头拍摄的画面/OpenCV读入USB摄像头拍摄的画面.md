@@ -6,7 +6,7 @@
 
 本文演示了使用opencv从USB摄像头读取视频流，并通过HighGUI实时显示画面。
 
-opencv读取usb摄像头的视频流， 需要用到`VideoCapture` 类, 此文章提供了VideoCapture的基础操作。如果你在操作过程中，摄像头读取失败， 凡哥还为你提供了**问题排查手册**。 
+opencv读取usb摄像头的视频流， 需要用到`VideoCapture` 类, 此文章提供了VideoCapture的基础操作。如果你在操作过程中，摄像头读取失败， 阿凯还为你提供了**问题排查手册**。 
 
 ![镜头焦距与光圈调节](./image/camera-lens-adjust-demo.png)
 
@@ -30,12 +30,12 @@ opencv读取usb摄像头的视频流， 需要用到`VideoCapture` 类, 此文�
 代码功能描述
     从摄像头逐帧(frame-by-frame)读入图片并通过HighGUI展示
 作者
-    凡哥@杭州云江科技
+    阿凯@1Z实验室
 教程网站
-    www.myfange.com
+    www.1zlab.com(网站备案中)
 相关课程
     * 通过HIGH GUI展示图片
-    http://www.myfange.com/p/opencv-highgui-imshow
+    http://www.1zlab.com(网站备案中)/p/opencv-highgui-imshow
     * 图像基础变换(仿射变换)
 '''
 
@@ -72,7 +72,7 @@ img_count = 1
 
 # 帮助信息
 helpInfo = '''
-=======凡哥贴心小助手=======
+=======阿凯贴心小助手=======
 提示-按键前需要选中当前画面显示的窗口
 
 按键Q： 退出程序
@@ -168,9 +168,7 @@ cap.release()
 
 这里我们只用到了两个基本的设定， 设定获取图像分辨率。 
 
-凡哥查看手中的[200万宽动态摄像头](https://item.taobao.com/item.htm?id=563298329916)的参数，查到摄像头支持的最高分辨率是1920*1080， 所以我们设定参数的时候设成最大值，也就是最清晰的模式。
-
-![200万宽动态摄像头](./image/taobao-camera-200KDT.png)
+阿凯查看手中的200万宽动态摄像头]的参数，查到摄像头支持的最高分辨率是1920*1080， 所以我们设定参数的时候设成最大值，也就是最清晰的模式。
 
 
 
@@ -227,11 +225,11 @@ if not ret:
 
 ## 6.HighGUI窗口与键盘事件
 
-HighGUI的部分，均可以在**凡哥带你玩转OpenCV的基础课程**中学习。
+HighGUI的部分，均可以在**阿凯带你玩转OpenCV的基础课程**中学习。
 
-[CH1.3-通过HighGUI展示图片](http://www.myfange.com/p/opencv-highgui-imshow)
+[CH1.3-通过HighGUI展示图片](http://www.1zlab.com(网站备案中)/p/opencv-highgui-imshow)
 
-[CH1.4-图片保存imwrite](http://www.myfange.com/p/opencv-image-copy-and-compress)
+[CH1.4-图片保存imwrite](http://www.1zlab.com(网站备案中)/p/opencv-image-copy-and-compress)
 
 具体包括：
 
@@ -251,9 +249,9 @@ HighGUI的部分，均可以在**凡哥带你玩转OpenCV的基础课程**中学
 
 
 
-图片数据的基础格式（BGR）与属性，可以在[CH1.1-读入图片并显示图片的相关属性](http://www.myfange.com/p/opencv-imread-propoerty) 中查阅。
+图片数据的基础格式（BGR）与属性，可以在[CH1.1-读入图片并显示图片的相关属性](http://www.1zlab.com(网站备案中)/p/opencv-imread-propoerty) 中查阅。
 
-图片颜色空间变换，例如转换为灰度图(Grayscale), 需要借助 `cvtColor` 函数， 可以在[CH1.2-通过Matplotlib展示图片](http://www.myfange.com/p/opencv-matplotlib-image-show) 中学习。
+图片颜色空间变换，例如转换为灰度图(Grayscale), 需要借助 `cvtColor` 函数， 可以在[CH1.2-通过Matplotlib展示图片](http://www.1zlab.com(网站备案中)/p/opencv-matplotlib-image-show) 中学习。
 
 转换代码如下
 
@@ -285,9 +283,6 @@ flipCode = -1
 frame = cv2.flip(frame, flipCode)
 ```
 
-如果像要了解更多的2D仿射变换可以学习凡哥带你玩转OpenCV中的**CH5.3_图像基础变换**.
+如果像要了解更多的2D仿射变换可以学习阿凯带你玩转OpenCV中的**CH5.3_图像基础变换**.
 
-
-
-![微信推广](./image/wechat_yunjiang_ad.png)
 

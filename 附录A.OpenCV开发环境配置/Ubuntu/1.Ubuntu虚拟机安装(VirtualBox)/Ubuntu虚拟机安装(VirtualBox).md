@@ -96,7 +96,7 @@ https://www.bilibili.com/video/av18569702/?p=7
 
 
 
-更多细节见 [在VirtualBox虚拟机里使用Opencv获取USB摄像头的图像-阿凯带你配置OpenCV开发环境](http://www.myfange.com/p/virtualbox-opencv-usb-camera-video-capture)
+更多细节见 [在VirtualBox虚拟机里使用Opencv获取USB摄像头的图像-阿凯带你配置OpenCV开发环境](http://www.1zlab.com(网站备案中)/p/virtualbox-opencv-usb-camera-video-capture)
 
 
 

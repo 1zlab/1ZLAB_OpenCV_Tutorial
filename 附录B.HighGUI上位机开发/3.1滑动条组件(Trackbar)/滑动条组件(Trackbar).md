@@ -41,4 +41,4 @@ x 是我命名的值， 你可以命名为任意名称。
 
 **Trackbar的使用实例可以见通过HighGUI的Trackbar制作可变色背景**
 
-![灰度调色盘滑条(完整版)](http://image.myfange.com/灰度调色盘滑条(完整版).gif-bk)
+![灰度调色盘滑条(完整版)](./image/灰度调色盘滑条(完整版).gif)

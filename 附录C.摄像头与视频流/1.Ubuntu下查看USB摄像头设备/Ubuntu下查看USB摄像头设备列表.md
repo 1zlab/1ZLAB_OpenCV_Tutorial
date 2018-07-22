@@ -12,8 +12,6 @@
 
 
 
-![云江工业摄像头](./image/taobao-industry-camera.png)
-
 ## 1. 查看video设备
 
 ![ls查看USB摄像头列表](./image/ls-check-usb-device-list.gif)
@@ -166,8 +164,4 @@ cheese /dev/video0
 ```
 
 cheese功能非常有限， 而且容易崩溃。
-
-
-
-![微信推广](./image/wechat_yunjiang_ad.png)
 

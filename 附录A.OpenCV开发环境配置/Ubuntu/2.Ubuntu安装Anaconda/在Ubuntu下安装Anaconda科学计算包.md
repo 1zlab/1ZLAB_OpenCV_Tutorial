@@ -69,7 +69,7 @@ https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
 然后执行脚本
 
 ```bash
-fange@fange-CvPlat:~/Downloads$ bash Anaconda3-5.0.1-Linux-x86_64.sh 
+akai@akai-CvPlat:~/Downloads$ bash Anaconda3-5.0.1-Linux-x86_64.sh 
 ```
 
 然后就会自动安装
@@ -107,7 +107,7 @@ gedit .bashrc
 在文件末尾添加一行
 
 ```
-export PATH=/home/fange/anaconda3/bin:$PATH
+export PATH=/home/akai/anaconda3/bin:$PATH
 ```
 
 
@@ -147,7 +147,7 @@ python
 如果显示如下， 就说明你安装成功了。
 
 ```
-fange@fange-CvPlat:~$ python
+akai@akai-CvPlat:~$ python
 Python 3.6.2 |Anaconda custom (64-bit)| (default, Jul 20 2017, 13:51:32) 
 [GCC 4.4.7 20120313 (Red Hat 4.4.7-1)] on linux
 Type "help", "copyright", "credits" or "license" for more information.

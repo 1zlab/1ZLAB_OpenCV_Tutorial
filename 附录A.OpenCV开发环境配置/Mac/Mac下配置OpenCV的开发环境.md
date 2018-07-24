@@ -167,7 +167,7 @@ cv2.imshow('image', img)
 # 等待任意一个按键按下
 cv2.waitKey(0)
 # 关闭所有的窗口
-cv2.destoryAllWindows()
+cv2.destroyAllWindows()
 ```
 
 

@@ -43,20 +43,20 @@ OpenCV开发环境配置流程主要分一下三步
 
 
 
-![mac-01](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-01.png)
+![mac-01](./image/mac-01.png)
 
-![mac-02](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-02.png)
+![mac-02](./image/mac-02.png)
 
 下载完成以后得到安装包,双击即可
 然后一路`next`即可,大概会占用你2个多G的空间,**但是会节省你很多的时间.**
 
 
 
-![mac-03](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-03.png)
+![mac-03](./image/mac-03.png)
 
 安成以后得到**图标**, `python3.6`也安装好了了.
 
-![mac-04](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-04.png)
+![mac-04](./image/mac-04.png)
 
 
 
@@ -74,7 +74,7 @@ python -V
 
 
 
-![mac-05](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-05.png)
+![mac-05](./image/mac-05.png)
 
 
 
@@ -82,11 +82,11 @@ python -V
 
 打开刚才安装的`anacond-Navigator`
 
-![mac-04](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-04.png)
+![mac-04](./image/mac-04.png)
 
 
 
-![mac-06](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-06.png)
+![mac-06](./image/mac-06.png)
 
 
 
@@ -101,7 +101,7 @@ python -V
 
 
 
-![mac-07](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-07.png)
+![mac-07](./image/mac-07.png)
 
 安装完成以后 你可以在installed 中找到了了py-opencv,这时候打开终端,先输入入python进入python
 操作界面面输入
@@ -118,7 +118,7 @@ cv2.version
 
 弹出` 3.4.1`那说明opencv已经成功安装了。
 
-![mac-08](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-08.png)
+![mac-08](./image/mac-08.png)
 
 
 
@@ -131,7 +131,7 @@ pycharm是一款很专为python开发的ide,会为python开发提供很多的便
 
 https://www.jetbrains.com/pycharm/
 
-![mac-09](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-09.png)
+![mac-09](./image/mac-09.png)
 
 有专业版和社区版,我们下载社区版就好了.
 
@@ -141,15 +141,15 @@ https://www.jetbrains.com/pycharm/
 
 新建工程`Create New Project`, 给工程起个名字。
 
-![mac-10](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-10.png)
+![mac-10](./image/mac-10.png)
 
 
 
-![mac-11](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-11.png)
+![mac-11](./image/mac-11.png)
 
 然后新建一个python的脚本文件， 例如`opencv-demo.py`。
 
-![mac-12](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-12.png)
+![mac-12](./image/mac-12.png)
 
 随便输入一个简单的opencv测试程序。例如
 
@@ -180,7 +180,7 @@ cv2.destroyAllWindows()
 
 
 
-![mac-13](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-13.png)
+![mac-13](./image/mac-13.png)
 
 果然出错了,提示说**没有cv2 这个模块**,这是因为pycharm并不知道从哪里导入这个cv2,所
 以还需要**为pycharm配置opencv环境**. 
@@ -193,7 +193,7 @@ cv2.destroyAllWindows()
 
 1. 选择`file -> defaults Settings`  修改默认设置。
 
-![mac-14](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-14.png)
+![mac-14](./image/mac-14.png)
 
 2. 选择左边侧边栏的`Project Interpreter` 项目的**脚本解释器配置**。
 
@@ -201,30 +201,30 @@ cv2.destroyAllWindows()
 
    
 
-![mac-15](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-15.png)
+![mac-15](./image/mac-15.png)
 
 
 
 3. 选择`Existing environment` ， 找到你**anaconda3的安装目录**,根据图片里面的位置找到最终的python文件,ok即可.
 
-![mac-16](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-16.png)
+![mac-16](./image/mac-16.png)
 
 
 
 现在python版本变成了`3.6`,还多了很多的包,这就是anaconda3配置出来的Python科学计算开发环境。
 
-![mac-17](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-17.png)
+![mac-17](./image/mac-17.png)
 
 然后选择 `run ->EditConfigurations`
 
 > 运行环境配置在IDE的右上角。
 
-![mac-19](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-19.png)
+![mac-19](./image/mac-19.png)
 
 选择我们刚刚弄出来的`python3.6`,然后点击`ok`,就可以运行程序了。
 
-![mac-20](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-20.png)
+![mac-20](./image/mac-20.png)
 
 
 
-![mac-18](/home/zr/文档/OpenCV-1ZLab/附录A.OpenCV开发环境配置/Mac/image/mac-18.png)
+![mac-18](./image/mac-18.png)

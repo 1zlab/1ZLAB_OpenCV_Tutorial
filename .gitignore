@@ -1,20 +1,13 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-<<<<<<< HEAD
-=======
 *$py.class
->>>>>>> 1b4b4f7801cca3c80cde5a743f0d5aa6ad07862e
 
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
-<<<<<<< HEAD
-env/
-=======
->>>>>>> 1b4b4f7801cca3c80cde5a743f0d5aa6ad07862e
 build/
 develop-eggs/
 dist/
@@ -26,17 +19,11 @@ lib64/
 parts/
 sdist/
 var/
-<<<<<<< HEAD
-*.egg-info/
-.installed.cfg
-*.egg
-=======
 wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
->>>>>>> 1b4b4f7801cca3c80cde5a743f0d5aa6ad07862e
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -56,13 +43,9 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
-<<<<<<< HEAD
-*,cover
-=======
 *.cover
 .hypothesis/
 .pytest_cache/
->>>>>>> 1b4b4f7801cca3c80cde5a743f0d5aa6ad07862e
 
 # Translations
 *.mo
@@ -70,8 +53,6 @@ coverage.xml
 
 # Django stuff:
 *.log
-<<<<<<< HEAD
-=======
 local_settings.py
 db.sqlite3
 
@@ -81,15 +62,12 @@ instance/
 
 # Scrapy stuff:
 .scrapy
->>>>>>> 1b4b4f7801cca3c80cde5a743f0d5aa6ad07862e
 
 # Sphinx documentation
 docs/_build/
 
 # PyBuilder
 target/
-<<<<<<< HEAD
-=======
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -124,4 +102,3 @@ venv.bak/
 
 # mypy
 .mypy_cache/
->>>>>>> 1b4b4f7801cca3c80cde5a743f0d5aa6ad07862e

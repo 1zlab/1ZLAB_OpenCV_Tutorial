@@ -8,7 +8,7 @@
 
 
 
- ![dizhenju](/home/zr/%E6%96%87%E6%A1%A3/OpenCV-1ZLab/%E9%99%84%E5%BD%95A.OpenCV%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Mac/image/dizhenju.jpg)
+ ![dizhenju](./image/dizhenju.jpg)
 
 > 阿凯说： @国家弟震菊 是我的大学同学，专业是电子信息， 目前在杭电读研。
 >

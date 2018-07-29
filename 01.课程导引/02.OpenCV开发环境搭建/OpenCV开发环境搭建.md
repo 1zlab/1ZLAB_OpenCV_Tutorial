@@ -17,3 +17,5 @@
 2. **使用Anaconda安装Python-OpenCV**
 3. **PyCharm下配置**
 
+
+添加环境配置目录的教程 URL -> 二维码

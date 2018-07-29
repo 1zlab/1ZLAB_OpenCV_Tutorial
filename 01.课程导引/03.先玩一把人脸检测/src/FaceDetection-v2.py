@@ -2,8 +2,7 @@
 '''
 人脸识别FaceDetection
 通过HaarCascade模型，进行人脸识别与眼睛识别，在视频流中绘制矩形，标识脸部跟眼睛。
-
-TODO scalar部分  修改为 从frame中获取宽度跟长度
+算法的主要思路是首先在画面中获取人脸的位置（ROI），然后在人脸区域内检索眼睛的位置。
 '''
 import cv2
 

@@ -1,8 +1,4 @@
-第二集视频 讲解如何运行OpenCV（Python）的代码
 
-宣传Github  github.com/1zlab
-
-指引： 如果你没有配好开发环境的话，请看xxxxgithub.com上面的配置教程
 在Windows下演示如何运行OpenCV的代码，并实现人脸识别。
 PyCharm IDE.
 

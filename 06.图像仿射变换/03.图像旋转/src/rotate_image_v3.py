@@ -15,7 +15,8 @@ theta = 45
 
 def getRotationMatrix2D(theta, cx=0, cy=0):
     # 角度值转换为弧度值
-    theta = radians(theta)
+    # 因为图像的左上角是原点 需要×-1
+    theta = radians(-1 * theta)
 
     M = np.float32([
         [cos(theta), -sin(theta), (1-cos(theta))*cx + sin(theta)*cy],

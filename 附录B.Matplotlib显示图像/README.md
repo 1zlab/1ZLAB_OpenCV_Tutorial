@@ -1,2 +1,0 @@
-讲楚展示图片的两种方式HighGUI跟Matplotlib
-分析优势与劣势

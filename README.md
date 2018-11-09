@@ -4,30 +4,17 @@
 
 ## 前言
 
-为了让更多的学生可以更方便的入门OpenCV, **1Z实验室** 秉承**make things easy**的理念, 编写了这套**OpenCV基础入门公开课-1Z实验室**.  而且**课件与OpenCV源码**均放置在Github上面**开源**, 大家可以及时下载与更新, **1Z实验室**会持续更新, 并录制**视频教程**. 
-
-教程源文件(.md后缀文件, markdown) 可以在github实时的浏览, 也可以使用软件[typora](https://www.typora.io/)打开, **离线**也正常浏览课程配图.
-
-
-
-## 目录
-
-写给机器人爱好者的OpenCV基础教程-课程目录
-
-[目录](./目录.md)
-
+为了让更多的学生可以更方便的入门OpenCV, **1Z实验室** 秉承**make things easy**的理念, 编写了这套**OpenCV基础入门公开课-1Z实验室**.  
+**注: OpenCV教程原有的教程均移步到1zlab.com**
+[新版的 OpenCV入门教程](http://www.1zlab.com/book/python-opencv-tutorial/)
 
 ## 课程导引
 
-在阅读整套教程之前， 请先阅读我们的[课程导言](./01.课程导引/01.课程导引/课程导引.md)
+在阅读整套教程之前， 请先阅读我们的[课程导言](http://www.1zlab.com/article/opencv-first-course/)
 B站**视频教程**链接：[OpenCV基础教程-课程导言（1Z实验室）](https://www.bilibili.com/video/av27857638)
-
-![幻灯片2](./image/幻灯片3.PNG)
 
 
 ## 为什么选择我们的教程?
-
-![1Z实验室宣传海报](./image/1Z%E5%AD%A6%E9%99%A2%E5%AE%A3%E4%BC%A0%E6%B5%B7%E6%8A%A5.png)
 
 1. `快速入手` 通过对算法进行封装，提供上位机脚本，视频演示，让你快速入手OpenCV。
 2. `项目实战` 结合机器人项目实战，丰富历程，循序渐进，在实践中检验并优化算法。
